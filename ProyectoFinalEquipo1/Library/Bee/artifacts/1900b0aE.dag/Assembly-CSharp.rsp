@@ -323,8 +323,10 @@
 "Assets/Prefabs/movementScripts/moveTowards.cs"
 "Assets/Prefabs/movementScripts/transformPos.cs"
 "Assets/Scripts/crearMalla.cs"
+"Assets/Scripts/FieldOfView.cs"
 "Assets/Scripts/instanciarPrefab.cs"
 "Assets/Scripts/stopLight.cs"
+"Assets/Scripts/stoplightSensor.cs"
 "Assets/Scripts/wayPoint.cs"
 -langversion:8.0
 

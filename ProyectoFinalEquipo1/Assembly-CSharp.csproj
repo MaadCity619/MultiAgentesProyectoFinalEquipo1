@@ -41,13 +41,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\instanciarPrefab.cs" />
+     <Compile Include="Assets\Scripts\crearMalla.cs" />
+     <Compile Include="Assets\Prefabs\movementScripts\moveTowards.cs" />
+     <Compile Include="Assets\Prefabs\movementScripts\lerpMove.cs" />
+     <Compile Include="Assets\Scripts\wayPoint.cs" />
      <Compile Include="Assets\Scripts\stopLight.cs" />
      <Compile Include="Assets\Prefabs\movementScripts\transformPos.cs" />
-     <Compile Include="Assets\Scripts\instanciarPrefab.cs" />
-     <Compile Include="Assets\Scripts\wayPoint.cs" />
-     <Compile Include="Assets\Prefabs\movementScripts\lerpMove.cs" />
-     <Compile Include="Assets\Prefabs\movementScripts\moveTowards.cs" />
-     <Compile Include="Assets\Scripts\crearMalla.cs" />
+     <Compile Include="Assets\Scripts\stoplightSensor.cs" />
+     <Compile Include="Assets\Scripts\FieldOfView.cs" />
      <None Include="Assets\POLYGON city pack\Read_me.txt" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
